@@ -1,8 +1,14 @@
-p {
-  color: red;
+.sessao_bege {
+  background-color: rgb(182, 182, 135);
+  color: black;
   
 }
+.sessao_azul {
+  background-color: rgb(3, 34, 75);
+  color: white;
+}
 
-p2{
-  color: green;
+.sessao_verde {
+  background-color:rgb(17, 219, 179);
+  color: white;
 }
