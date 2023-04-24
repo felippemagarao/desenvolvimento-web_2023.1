@@ -2,6 +2,7 @@
   <head>
     <title>Titulo do documento da prova</title>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <h1>Esse é um cabeçalho de nível 1 - h1</h1>
