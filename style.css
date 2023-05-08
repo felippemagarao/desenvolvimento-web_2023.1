@@ -1,14 +1,7 @@
-.sessao_bege {
-  background-color: rgb(182, 182, 135);
-  color: black;
-  
-}
-.sessao_azul {
-  background-color: rgb(3, 34, 75);
-  color: white;
-}
+div {
+  border: solid black 1px;
+  border-radius: 5px;
+  margin-bottom: 1em;
+  padding-left: 0.5em;
 
-.sessao_verde {
-  background-color:rgb(17, 219, 179);
-  color: white;
 }
