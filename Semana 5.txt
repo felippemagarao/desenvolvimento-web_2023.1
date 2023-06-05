@@ -1,0 +1,41 @@
+# Variáveis no JavaScript
+
+- Strings (colocamos os dados com aspas)
+- Number (numeros e não precisamos colocar aspas)
+- Boolean (true e false)
+- Array (estrutura para armazenar varias valores em uma unica variavel (23, “Felippe”, [34]
+- Object - qualquer coisa é um object.
+
+# Declaração de variaveis
+
+Eu preciso declarar as variaveis e usamos 3 palavras-chaves
+
+- var
+- let
+- const (declaracao constante no bloco)
+
+## Comentarios
+
+/* Meu comentario */ 
+
+//
+
+# Operadores Aritméticos
+
+% resto da divisão
+
+++ incremento
+
+- - decremento
+
++ concatenar strings (junta duas ou mais strings)
+
+? Operador ternário
+
+# Operadores Lógicos
+
+&& (and) lógico
+
+|| (or) lógico
+
+! (not) lógico
