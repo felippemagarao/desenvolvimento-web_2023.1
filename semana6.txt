@@ -1,0 +1,22 @@
+Banco de Dados Relacionais
+SGBD (Sistema Gerenciador de Banco de Dados) / Database Management System
+Definição - é uma colação logicamente coerente de dados com algum significado inerente. Ele é projetado, construido e populado com dados para uma finalidade específica.
+Universo de discurso / mini-mundo é quando eu me refiro a um determinado aspecto do mundo real. Quando eu reuno dados específicos que são relevantes para mim.
+
+*Metadados - dados gerados a partir de outros dados.
+Os dados são RELACIONAIS porque eles são organizados em tabelas. 
+Vantagens da abordagem SGBD
+…
+Definições
+Relações = a tabela
+Atributo = são as colunas
+Domínio = conjunto de valores possíveis.
+Tupla - cada linha da tabela é uma tupla.
+Chaves = conjunto de valores
+primária
+única:
+Integridade referencial
+SQL (Structured Query Language) - Linguagem padrão dos SGDBs relacionais
+Padrão ANSI e ISO
+Tutorial SQL
+https://sqlzoo.net/wiki/SQL_Tutotial
