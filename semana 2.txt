@@ -1,0 +1,64 @@
+Protocolos
+Mensagens específicas são enviadas → ações específicas são realizadas ou ocorre outro evento.
+Protocolos humanos → Mensagens específicas são enviadas, que desencadeiam respostas ou eventos.
+Protocolos de rede → Máquinas no lugar de gente. Toda a comunicação é regida por protocolos.
+Formalmente: Protocolos definem formato, a ordem das mensagens enviadas e recebidas entre os membros de uma rede, além das ações realizadas na transmissão e a recepção de mensagens.
+Camadas de protocolos
+Camadas de abstração → É uma forma de ocultar os detalhes de trabalho de um subsistema, permitindo a separação de interesses para facilitar a interoperabilidade e a independência da plataforma.
+Níveis
+Aplicação → Viabilizar aplicações de rede (FTP, SMTP, HTTP)
+Transporte → Transferência de dados entre processos (TCP, UDP)
+Rede → Roteamento de datagramas de origem até destino (IP)
+Enlace → Transferência de dados entre elementos vizinhos da rede (Ethernet, 802.11 wifi, PPP)
+Físico → Movimenta “bits” no meio físico.
+
+Função
+Definem:
+Tipos de mensagem → request, response, etc
+Sintaxe → quais campos e como são delimitados
+Semântica → o que cada campo significa
+Regras → quando e como os processos respondem ou enviam mensagens
+Protocolos abertos
+Facilitam a interoperabilidade 
+São definidos por padrões
+Exemplos: HTTP, SMTP
+Protocolos de camada de transporte da internet (TCP)
+Transporte confiável entre o processo emissor e receptor
+Controle de fluxo → O emissor não sobrecarrega o receptor
+Controle de congestionamento → Desacelera o emissor quando a rede sobrecarrega
+Orientado a conexão → Necessita de configuração entre os processos cliente e servidor
+Não oferece: 
+Segurança
+Controle de tempo
+Garantia de desempenho mínimo (throughput)
+Protocolos da camada de transporte da Internet (UDP)
+Transporte de dados não confiável
+Não oferece:
+Controle de fluxo
+Confiabilidade
+Controle de congestionamento
+Controle de tempo
+Garantia de desempenho mínimo (throughput)
+Configuração de conexão
+OBS
+TCP e UDP não oferecem encriptação, todas as informações transitam pela internet como texto.
+SSL (HTTPS) → Transport Layer Security
+Está na camada da aplicação
+Oferece:
+Encriptação para conexões TCP
+Integridade dos dados
+Autenticação do destinatário
+Desenvolver para web é construir programas:
+Que rodam em sistemas diferentes
+Se comunicam através de uma rede
+Arquitetura
+P2P 
+Servidores se comunicam e ao mesmo tempo que você receber, você doa também a sua “maquina”.
+Processo - programas sendo executados em um “nó” da rede (nó = aparelho)
+O que identifica um processo é o endereço de IP mais a porta (port), assim se torna possível rodar varios processos na rede. 
+Servidor
+powershell 
+ls = mostra os servidores
+cd + nome da pasta
+python -m http.server / http.start 8001
+ctrl + c = FECHAR O SERVIDOR
