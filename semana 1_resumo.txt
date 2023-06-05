@@ -1,0 +1,53 @@
+# Documentos da Web
+HTML - Corpo do documento, estrutura
+CSS - Formatação da apresentação, layout e animações;
+JavaScript - Comportamento dinâmico, geração de conteúdo, comunicação e manipulação dos elementos do documento em tempo de execução.
+Estrutura Básica de um HTML
+< ! DOCTYPE html >
+<html >
+<head>
+<meta charset = ” utf −8 ” >
+< t i t l e > Página de Teste </ t i t l e >
+</head>
+<body>
+<p> Página de t e s t e </p>
+</body>
+</html >
+Estrutura Básica de um HTML com CSS - inline
+< ! DOCTYPE html >
+<html >
+<head>
+<meta charset = ” utf −8 ” >
+< t i t l e >Meu experimento CSS</ t i t l e >
+< s t y l e >
+h1 {
+c o l o r : blue ;
+background − c o l o r : yellow ;
+border : 1 px s o l i d black ;
+}
+p {
+co l o r : red ;
+}
+</ s t y l e >
+</head>
+<body>
+<h1 >Olá ! </h1 >
+<p> Primeiro Exemplo CSS</p>
+</body>
+</html >
+
+Estrutura Básica de um HTML com JavaScript- inline
+<html >
+<head>
+< t i t l e > Teste J a v a S c r i p t </ t i t l e >
+</head>
+<body>
+< s c r i p t >
+f u n c t i o n t e s t e ( ) {
+document . w r i t e ( ’ Apenas um teste ’ ) ;
+}
+</ s c r i p t >
+<button o n c l i c k = ” t e s t e ( ) ” > Aperte aqui . </button >
+</body>
+</html >
+ 
